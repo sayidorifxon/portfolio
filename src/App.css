@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Mono", monospace;
+    scroll-behavior: smooth;
+  /* width */
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(190, 117, 0);
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #191919;
+  }
+}
+body{
+    background-color: rgb(7, 8, 15);
+    background-image: url("./img/bodybg.svg");
+}
+
+.container{
+    max-width: 1310px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}

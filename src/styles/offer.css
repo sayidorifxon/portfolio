@@ -1,0 +1,51 @@
+.offer{
+    padding: 70px 0;
+}
+.offer p{
+    color: rgb(29, 160, 255);
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.offer ul{
+    display: flex;
+    width: 100%;
+    gap: 20px 5px;
+    justify-content: space-evenly;
+    padding: 100px 0px;
+    flex-wrap: wrap;
+}
+.offer ul li{
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: rgb(1, 2, 11);
+    box-shadow: rgb(15, 15, 21) 20px 20px 60px, rgb(15, 15, 21) -20px -20px 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+}
+.offer ul li img {
+    position: absolute;
+    top: -25px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+}
+.offer ul li p{
+    font-size: 1.4rem;
+    color: rgb(29, 160, 255);
+    font-weight: bold;
+}
+.offer ul li h4{
+    font-size: 1rem;
+    color: rgb(205, 205, 216);
+    font-weight: 100;
+    max-width: 230px;
+    width: 100%;
+}

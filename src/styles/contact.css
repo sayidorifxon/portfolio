@@ -1,0 +1,62 @@
+.box{
+    width: 500px;
+    background-color: rgb(7, 8, 15);
+    box-shadow: rgba(0, 0, 0, 0.043) 9.9px 11px 1px -11px, rgba(0, 0, 0, 0.067) 27.7px 31px 11.3px -11px, rgba(0, 0, 0, 0.11) 99px 111px 80px -11px;
+    border-radius: 5px;
+    border: 1px solid rgb(29, 160, 255);
+    position: absolute;
+    bottom: 7%;
+    top: 7%;
+    padding: 50px;
+    right: 5%;
+    min-height: 85%;
+}
+.box form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    object-fit: contain;
+}
+.box div{
+    padding: 5px;
+    border: 1px solid rgb(29, 160, 255);
+    border-radius: 5px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.043) 9.9px 11px 1px -11px, rgba(0, 0, 0, 0.067) 27.7px 31px 11.3px -11px, rgba(0, 0, 0, 0.11) 99px 111px 80px -11px;
+}
+.box div label{
+    font-size: 12px;
+    color: rgb(29, 160, 255);
+}
+.box div input{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid transparent;
+    color: rgb(205, 205, 216);
+    border-radius: 10px;
+    background-color: transparent;
+}
+.box form button{
+    background-color: transparent;
+    border: 1px solid rgb(29, 160, 255);
+    color: rgb(29, 160, 255);
+    padding: 7px 42px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.box form button:hover{
+    color: white;
+    background-color:rgb(29, 160, 255) ;
+}
+.box form textarea{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: transparent;
+    resize: none;
+    color: rgb(205, 205, 216);
+}

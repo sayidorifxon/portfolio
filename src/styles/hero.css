@@ -1,0 +1,51 @@
+.hero{
+    padding: 70px 0;
+}
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.image img{
+    max-width: 500px;
+    width: 100%;
+}
+.content h1{
+font-size: 2.5rem;
+color: white;
+}
+.content span {
+    color: rgb(70, 166, 111);
+}
+.hero__cta {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.hero__cta a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+max-width: 255px;
+width: 100%;
+border: 1px solid rgb(70, 166, 111);
+border-radius: 50px;
+}
+.hero__cta a:nth-of-type(1){
+background-color: rgb(70, 166, 111);
+
+}
+.hero__cta a:nth-of-type(2){
+background-color: transparent;
+
+}
+.hero__cta a:nth-of-type(1):hover{
+background-color: transparent;
+}
+.hero__cta a:nth-of-type(2):hover{
+background-color: rgb(70, 166, 111);
+}
